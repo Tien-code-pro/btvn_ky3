@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="Lap01btvn.Pages.FormEmail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lap01btvn.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="50">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Margin="0,100,0,0">
+            <TextBox x:Name="inputEmail" Margin="20" HorizontalAlignment="Center" Width="350" Height="40" Text="" TextWrapping="Wrap" PlaceholderText="Email"/>
+            <TextBox x:Name="inputTitle" Margin="20" HorizontalAlignment="Center" Width="350" Height="40" Text="" TextWrapping="Wrap" PlaceholderText="Title"/>
+            <TextBox x:Name="inputContent" Margin="20" HorizontalAlignment="Center" Width="350" Height="150" Text="" TextWrapping="Wrap" PlaceholderText="Content"/>
+            <Button Click="Submit" Margin="20" Background="Beige" HorizontalAlignment="Center" Width="150" Content="Submit"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Margin="0,100,0,0">
+            <TextBlock x:Name="ListEmail" Text="List Email" HorizontalAlignment="Center"  Width="350" Height="50" FontSize="30" Margin="150,20,0,0"/>
+
+            <StackPanel Grid.Column="2" Margin="0,9,0,0">
+                <ComboBox>
+                    <TextBlock x:Name="txtEmail" Text="Email" FontSize="20" Margin="150,20,0,0"/>
+                    <TextBlock x:Name="txtTitle" Text="Title" FontSize="20" Margin="150,20,0,0"/>
+                    <TextBlock x:Name="txtContent" Text="Content" Width="350" Height="100" FontSize="20" Margin="150,20,0,0"/>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
