@@ -1,0 +1,83 @@
+﻿<Page
+    x:Class="BaiThi1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BaiThi1"
+    xmlns:models="using:BaiThi1.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    RequestedTheme="Light"
+    Foreground="Black"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Margin="0 80 0 0">
+                <TextBox x:Name="tb_EmpID" HorizontalAlignment="Left" Height="30" Margin="204,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290"/>
+                <TextBox x:Name="tb_EmpName" HorizontalAlignment="Left" Margin="204,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="290"/>
+                <TextBox x:Name="tb_DOB" HorizontalAlignment="Left" Height="30" Margin="204,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290"/>
+
+                <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="55" Margin="35,80,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="214" FontSize="20"/>
+                <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Height="55" Margin="35,175,0,0" TextWrapping="Wrap" Text="Role" VerticalAlignment="Top" Width="214" FontSize="20"/>
+                <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Height="55" Margin="35,295,0,0" TextWrapping="Wrap" Text="Birthyear" VerticalAlignment="Top" Width="214" FontSize="20"/>
+            </Grid>
+            <Grid Grid.Column="1" Margin="100 120 0 0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="Name" Grid.Column="0" FontSize="20"/>
+                        <TextBlock Text="Role" Grid.Column="1" FontSize="20" />
+                        <TextBlock Text="Birthyear" Grid.Column="2" FontSize="20" />
+                    </Grid>
+                    <Grid>
+            <ListView x:Name="listView" HorizontalAlignment="Left" Background="DarkCyan" MinHeight="255" Margin="0,40,0,0" VerticalAlignment="Top" Width="740" FontSize="10">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <StackPanel>
+                                <TextBlock Text="{Binding EmpID}" FontSize="18" Margin="20 0 0 0"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock Text="{Binding EmpName}" FontSize="18" Margin="20 0 0 0"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock Text="{Binding DOB}" FontSize="18" Margin="20 0 0 0"/>
+                            </StackPanel>
+                        </StackPanel>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <RelativePanel Margin="0 30 0 0">
+                <Button x:Name="btn_add" Content="ADD" Width="125" FontSize="20" Click="btn_add_Click" Margin="50 0 0 0"/>
+                <Button x:Name="btn_Load" Content="LOAD" RelativePanel.RightOf="btn_add"   Width="128" FontSize="20" Click="btn_Load_Click" Margin="30 0 30 0"/>
+                <Button x:Name="btn_save" RelativePanel.RightOf="btn_Load" Content="RESET" Width="116" FontSize="20" Click="btn_save_Click"/>
+            </RelativePanel>
+        </Grid>
+        
+    </Grid>
+</Page>
