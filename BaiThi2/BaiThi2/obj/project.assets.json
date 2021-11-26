@@ -8343,18 +8343,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "C:\\Users\\Acer Aspire\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\VisualDocument\\Kì3_UWP\\BaiThi2\\BaiThi2\\BaiThi2.csproj",
+      "projectUniqueName": "E:\\github\\btvn ky3\\btvn_ky3\\BaiThi2\\BaiThi2\\BaiThi2.csproj",
       "projectName": "BaiThi2",
-      "projectPath": "E:\\VisualDocument\\Kì3_UWP\\BaiThi2\\BaiThi2\\BaiThi2.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "E:\\VisualDocument\\Kì3_UWP\\BaiThi2\\BaiThi2\\obj\\",
+      "projectPath": "E:\\github\\btvn ky3\\btvn_ky3\\BaiThi2\\BaiThi2\\BaiThi2.csproj",
+      "packagesPath": "C:\\Users\\Acer Aspire\\.nuget\\packages\\",
+      "outputPath": "E:\\github\\btvn ky3\\btvn_ky3\\BaiThi2\\BaiThi2\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8362,7 +8362,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Acer Aspire\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

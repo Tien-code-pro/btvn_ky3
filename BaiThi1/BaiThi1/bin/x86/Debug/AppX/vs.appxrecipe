@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>PHAMMINH202</Machine>
-    <WindowsUser>PhạmMinh</WindowsUser>
+    <Machine>LAPTOP-2QBOFLKO</Machine>
+    <WindowsUser>Acer Aspire</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>4da12005-688a-4770-817d-1699172a6248</PackageIdentityName>
     <PackageIdentityPublisher>CN=PhạmMinh</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>795B5090370D8FEEF4C92B4D97D11B9190E53EC662A019D0C3F180FCA882C51D</RegisteredManifestChecksum>
+    <LayoutDir>E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E45C9F4E6CD5A6E430E777F80F74EC658D04D15B50EB3B5B6C0CE0EAC0E310D7</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4da12005-688a-4770-817d-1699172a6248_1.0.0.0_x86__dqm4sk69145hg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4da12005-688a-4770-817d-1699172a6248_dqm4sk69145hg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>4da12005-688a-4770-817d-1699172a6248</RegisteredPackageID>
@@ -27,18 +27,18 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-22T12:37:36.322</Modified>
+      <Modified>2021-11-22T13:34:29.273</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\bin\x86\Debug\BaiThi1.exe">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\bin\x86\Debug\BaiThi1.exe">
       <PackagePath>entrypoint\BaiThi1.exe</PackagePath>
-      <Modified>2021-11-22T12:37:34.764</Modified>
+      <Modified>2021-11-22T13:34:22.341</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ADMIN\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Acer Aspire\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2021-03-17T20:03:36.000</Modified>
     </AppxPackagedFile>
@@ -50,71 +50,71 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-01T21:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-11-22T08:09:38.672</Modified>
+      <Modified>2021-11-22T08:09:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-10-27T16:47:24.068</Modified>
+      <Modified>2021-10-27T16:47:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T16:47:24.072</Modified>
+      <Modified>2021-10-27T16:47:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T16:47:24.073</Modified>
+      <Modified>2021-10-27T16:47:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T16:47:24.074</Modified>
+      <Modified>2021-10-27T16:47:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T16:47:24.075</Modified>
+      <Modified>2021-10-27T16:47:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T16:47:24.076</Modified>
+      <Modified>2021-10-27T16:47:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-27T16:47:24.077</Modified>
+      <Modified>2021-10-27T16:47:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\sqlite3.dll">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
-      <Modified>2021-11-22T08:54:05.329</Modified>
+      <Modified>2021-11-22T08:54:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\bin\x86\Debug\BaiThi1.xr.xml">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\bin\x86\Debug\BaiThi1.xr.xml">
       <PackagePath>BaiThi1.xr.xml</PackagePath>
-      <Modified>2021-11-22T12:32:26.132</Modified>
+      <Modified>2021-11-22T12:32:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-11-22T12:37:34.659</Modified>
+      <Modified>2021-11-22T13:34:21.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-11-22T12:37:34.660</Modified>
+      <Modified>2021-11-22T13:34:21.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-01T19:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-11-22T12:37:34.951</Modified>
+      <Modified>2021-11-22T13:34:23.127</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\VisualDocument\Kì3_UWP\BaiThi1\BaiThi1\bin\x86\Debug\Core\BaiThi1.exe">
+    <AppxPackagedFile Include="E:\github\btvn ky3\btvn_ky3\BaiThi1\BaiThi1\bin\x86\Debug\Core\BaiThi1.exe">
       <PackagePath>BaiThi1.exe</PackagePath>
-      <Modified>2021-11-22T12:37:36.315</Modified>
+      <Modified>2021-11-22T13:34:29.241</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

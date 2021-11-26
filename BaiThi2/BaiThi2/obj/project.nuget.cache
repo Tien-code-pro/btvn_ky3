@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x4BwdM925BDhsW+Wbeo2i6lntPm6FTFBCC3qcehMR+GwTfqarQ4fJNdcCpZY2G/EG3x1ecCmfk4qvtZ7f7UPAw==",
+  "dgSpecHash": "QZQDsqBCzCjkf43b5knBCKXqocDkPWFTssi+EFkuGhsWmZvsM7jNe60/kN7hkl0IHmypAHIE7Udd0mjPkjrK8w==",
   "success": true,
-  "projectFilePath": "E:\\VisualDocument\\Kì3_UWP\\BaiThi2\\BaiThi2\\BaiThi2.csproj",
+  "projectFilePath": "E:\\github\\btvn ky3\\btvn_ky3\\BaiThi2\\BaiThi2\\BaiThi2.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",
@@ -27,7 +27,7 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.net.native.sharedlibrary\\2.2.8-rel-29722-00\\runtime.win10-x86.microsoft.net.native.sharedlibrary.2.2.8-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\\2.2.12\\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.12\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.12.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\sqlitepcl\\3.8.7.2\\sqlitepcl.3.8.7.2.nupkg.sha512"
+    "C:\\Users\\Acer Aspire\\.nuget\\packages\\sqlitepcl\\3.8.7.2\\sqlitepcl.3.8.7.2.nupkg.sha512"
   ],
   "logs": []
 }
